@@ -1,0 +1,61 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone1", "parent": "root", "x": 1.5, "y": 183 },
+	{ "name": "bone2", "parent": "root", "x": 144.5, "y": 209 },
+	{ "name": "bone3", "parent": "root", "x": 118.5, "y": 124 },
+	{ "name": "bone4", "parent": "root", "x": -219.49, "y": 170 }
+],
+"slots": [
+	{ "name": "000", "bone": "bone1", "attachment": "000" },
+	{ "name": "004", "bone": "bone2", "attachment": "sun" },
+	{ "name": "005", "bone": "bone3", "attachment": "005" },
+	{ "name": "006", "bone": "bone4", "attachment": "006" }
+],
+"skins": {
+	"default": {
+		"000": {
+			"000": { "width": 640, "height": 350 }
+		},
+		"005": {
+			"005": { "width": 100, "height": 60 }
+		},
+		"006": {
+			"006": { "width": 80, "height": 50 }
+		}
+	},
+	"ice": {
+		"004": {
+			"sun": { "name": "014", "x": -0.5, "y": 1.99, "width": 44, "height": 44 }
+		}
+	},
+	"sun": {
+		"004": {
+			"sun": { "name": "004", "width": 60, "height": 60 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"bone4": {
+				"translate": [
+					{ "time": 0, "x": -70, "y": 92.99 },
+					{ "time": 10, "x": 508.99, "y": 93 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0, "x": 159, "y": 95.99 },
+					{ "time": 10, "x": -393.99, "y": 95.99 }
+				]
+			},
+			"bone2": {
+				"translate": [
+					{ "time": 0, "x": 3, "y": 69 }
+				]
+			}
+		}
+	}
+}
+}

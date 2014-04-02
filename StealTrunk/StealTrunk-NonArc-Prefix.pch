@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'StealTrunk-NonArc' target in the 'StealTrunk-NonArc' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

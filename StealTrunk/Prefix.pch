@@ -1,0 +1,47 @@
+//
+// Prefix header for all source files of the 'Test' target in the 'Test' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <CoreLocation/CoreLocation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import "DataModelHelper.h"
+#import "3rdTool.h"
+#import "Common.h"
+#import "JSON.h"
+#import "KKView.h"
+#import "KLSwitch.h"
+
+#endif
+
+#ifndef __OPTIMIZE__
+# define NSLog(...) NSLog(__VA_ARGS__)
+#else
+# define NSLog(...) {}
+#endif
+
+/* hide by kevin
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 60000
+#define UITextAlignmentCenter           NSTextAlignmentCenter
+#define UITextAlignmentRight            NSTextAlignmentRight
+#define UITextAlignmentLeft             NSTextAlignmentLeft
+
+#define UILineBreakModeWordWrap         NSLineBreakByWordWrapping
+#define UILineBreakModeCharacterWrap    NSLineBreakByCharWrapping
+#define UILineBreakModeClip             NSLineBreakByClipping
+#define UILineBreakModeHeadTruncation   NSLineBreakByTruncatingHead
+#define UILineBreakModeTailTruncation   NSLineBreakByTruncatingTail
+#define UILineBreakModeMiddleTruncation NSLineBreakByTruncatingMiddle
+
+#endif
+ */

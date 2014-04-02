@@ -1,0 +1,40 @@
+
+sunny.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+000
+  rotate: false
+  xy: 1, 114
+  size: 640, 350
+  orig: 640, 350
+  offset: 0, 0
+  index: -1
+004
+  rotate: false
+  xy: 1, 1
+  size: 60, 56
+  orig: 60, 60
+  offset: 0, 2
+  index: -1
+005
+  rotate: false
+  xy: 1, 59
+  size: 100, 53
+  orig: 100, 60
+  offset: 0, 4
+  index: -1
+006
+  rotate: false
+  xy: 643, 421
+  size: 80, 43
+  orig: 80, 50
+  offset: 0, 3
+  index: -1
+014
+  rotate: false
+  xy: 103, 71
+  size: 44, 41
+  orig: 44, 44
+  offset: 0, 1
+  index: -1
